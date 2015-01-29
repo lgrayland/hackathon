@@ -27,46 +27,9 @@
 			<div id="game">
 				<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
 				<div id="game-cards" class="clearfix">
-					<div class="michael cards" ng-click='selectStudent(student)'></div>
-					<div class="michael cards"></div>
-					<div class="tony cards"></div>
-					<div class="tony cards"></div>
-					<div class="rabea cards"></div>
-					<div class="rabea cards"></div>
-					<div class="nina cards"></div>
-					<div class="nina cards"></div>
-					<div class="sophie cards"></div>
-					<div class="sophie cards"></div>
-					<div class="daniel cards"></div>
-					<div class="daniel cards"></div>
-					<div class="sadiq cards"></div>
-					<div class="sadiq cards"></div>
-					<div class="julia cards"></div>
-					<div class="julia cards"></div>
-					<div class="ellie cards"></div>
-					<div class="ellie cards"></div>
-					<div class="lisa cards"></div>
-					<div class="lisa cards"></div>
-					<div class="sebastian cards"></div>
-					<div class="sebastian cards"></div>
-					<div class="joel cards"></div>
-					<div class="joel cards"></div>		
-					<div class="mathieu cards"></div>
-					<div class="mathieu cards"></div>
-					<div class="neil cards"></div>
-					<div class="neil cards"></div>
-					<div class="andres cards"></div>
-					<div class="andres cards"></div>
-					<div class="luke cards"></div>
-					<div class="luke cards"></div>
-					<div class="joel cards"></div>
-					<div class="joel cards"></div>		
-					<div class="mathieu cards"></div>
-					<div class="mathieu cards"></div>
-					<!--for symmetry, add back in if you want
-					<div class="ace cards"></div>
-					<div class="ace cards"></div>
-					-->
+
+					<div class="cards"  ng-repeat='student in students'></div>
+					
 				</div>
 				<div id="game-control-buttons">
 					<button id="start">Start game</button>
