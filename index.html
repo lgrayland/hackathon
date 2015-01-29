@@ -1,79 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
-	
-		<title>Blank Template</title>
-		
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-		
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="js/main.js"></script>
-	</head>
-	<body>
-		<div id="container">
-			<header>
-				<h1>the one and only wdi 10 card game</h1>
-			</header>
-			
-			<div id="game">
-				<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
-				<div id="game-cards" class="clearfix">
-					<div class="michael cards"></div>
-					<div class="michael cards"></div>
-					<div class="tony cards"></div>
-					<div class="tony cards"></div>
-					<div class="rabea cards"></div>
-					<div class="rabea cards"></div>
-					<div class="nina cards"></div>
-					<div class="nina cards"></div>
-					<div class="sophie cards"></div>
-					<div class="sophie cards"></div>
-					<div class="daniel cards"></div>
-					<div class="daniel cards"></div>
-					<div class="sadiq cards"></div>
-					<div class="sadiq cards"></div>
-					<div class="julia cards"></div>
-					<div class="julia cards"></div>
-					<div class="ellie cards"></div>
-					<div class="ellie cards"></div>
-					<div class="lisa cards"></div>
-					<div class="lisa cards"></div>
-					<div class="sebastian cards"></div>
-					<div class="sebastian cards"></div>
-					<div class="joel cards"></div>
-					<div class="joel cards"></div>		
-					<div class="mathieu cards"></div>
-					<div class="mathieu cards"></div>
-					<div class="neil cards"></div>
-					<div class="neil cards"></div>
-					<div class="andres cards"></div>
-					<div class="andres cards"></div>
-					<div class="luke cards"></div>
-					<div class="luke cards"></div>
-					<div class="joel cards"></div>
-					<div class="joel cards"></div>		
-					<div class="mathieu cards"></div>
-					<div class="mathieu cards"></div>
-					<!--for symmetry, add back in if you want
-					<div class="ace cards"></div>
-					<div class="ace cards"></div>
-					-->
-				</div>
-				<div id="game-control-buttons">
-					<button id="start">Start game</button>
-					<button id="reset">Reset game</button>
-				</div>
-			</div>
+<html lang="en" ng-app='hackathonApp'>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
 
-			<footer>
-				&copy; General Assembly wdi 10
-			</footer>
-		</div><!-- #container --> 
-	</body>
+	
+	<title>wdi 10 memory game</title>
+	<script text="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-animate.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/main.js"></script>	
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+	<div id="container" ng-controller="HackathonController">
+		<header>
+			<h1>the one and only wdi 10 card game</h1>
+		</header>
+
+		<div id="game">
+			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
+			<div id="game-cards" class="clearfix">
+
+				<div class="cards selected" ng-repeat='student in students' ng-click='selectStudent()' ng-switch on="student" >
+					<div ng-switch-when="student.phrase">
+						{{ student.phrase }}
+					</div>
+					<div ng-switch-default>
+						<img ng-src="{{ student.image }}" alt="">
+					</div>
+
+
+
+				</div>
+
+			</div>
+			<div id="game-control-buttons">
+				<button id="start">Start game</button>
+				<button id="reset">Reset game</button>
+			</div>
+		</div>
+
+		<footer>
+			&copy; General Assembly wdi 10
+		</footer>
+	</div><!-- #container --> 
+</body>
 </html>

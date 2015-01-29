@@ -31,6 +31,10 @@ Developer @GA in NYC
 	clear: both;
 }
 
+.hide {
+     display: none;
+}
+
 .alignright {
 	float: right; 
 	padding: 0 0 10px 10px; /* note the padding around a right floated image */
@@ -49,13 +53,15 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
+     background-color: #FFFCF9;
     
 }
 
 h1{
      text-align: center;
-     font-size: 48px;
+     font-size: 52px;
      font-family: 'Megrim', cursive;
+     color: #75C4BC; 
 }
 /******************************************
 /* LAYOUT                   
@@ -65,6 +71,7 @@ h1{
 #container {
 	width: 960px;
 	margin: auto;
+
 }
 
 header {
@@ -88,6 +95,7 @@ footer {
      border: 1px solid black;
      text-align: center;
      border-radius: 10px;
+
 }
 #gameOver{
      display:none;
@@ -110,23 +118,11 @@ footer {
 .selected,.matched{
      background-image:url(../images/classic-playing-cards.png);
 }
-.michael.selected,.michael.matched{background-position:-877px -1px;}
-.tony.selected,.tony.matched{background-position:-804px -1px;}
-.rabea.selected,.rabea.matched{background-position:-731px -1px;}
-.nina.selected,.nina.matched{background-position:-658px -1px;}
-.sophie.selected,.sophie.matched{background-position:-658px -1px;}
-.daniel.selected,.daniel.matched{background-position:-585px -1px;}
-.sadiq.selected,.sadiq.matched{background-position:-512px -1px;}
-.julia.selected,.julia.matched{background-position:-439px -1px;}
-.ellie.selected,.ellie.matched{background-position:-366px -1px;}
-.lisa.selected,.lisa.matched{background-position:-293px -1px;}
-.sebastian.selected,.sebastian.matched{background-position:-220px -1px;}
-.joel.selected,.joel.matched{background-position:-147px -1px;}
-.mathieu.selected,.mathieu.matched{background-position:-74px -1px;}
-.neil.selected,.neil.matched{background-position:-293px -1px;}
-.andres.selected,.andres.matched{background-position:-220px -1px;}
-.luke.selected,.luke.matched{background-position:-147px -1px;}
-.joel.selected,.joel.matched{background-position:-74px -1px;}
+
+.cards img{
+     height: 200px;
+     width: 130px;
+}
 
 /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 

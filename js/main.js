@@ -1,13 +1,55 @@
-//click on a card, give class selected
-  // click second card, give class selected
-  //check first class against second class. 
-  //compared cards 
-  //if cards are matching, give class matched
-  // if cards dont't match, take away class selected. 
+// SUDO
+// 
+// LANDING PAGE: Objects are in Div id="landing"
+// Animate objects (they come into the page from the sizes progressively)
+// Once all objects are in, they all disolve 
+// INSTRUCTION PAGE: Text is displayed in a box with animation
+// GAME PAGE: Display all the objects, with a big red button "Play"
+// floating on top. On click:
+//     button disappears
+//     cards are randomly moved around
+//     other players score is displayed (version 3)
+//     count down starts (Version 2)
+//     game starts
+//     each combination the score is increased by one
+//     game stops after the count down reachs zero 
+//  GAME COMPLETED:
+//     score is diplayed
+//     message on top is displayed (you win... funny text)
+//     players score is updated (version 3)
+//  FINISH THE GAME:
+//     Finish page is displayed (picture of of WDI10 with message)
 
 
-  //add congratulation when all cards match. 
-  console.log("Hello");
+(function(){
+
+  var app = angular.module('hackathonApp', ['ngAnimate']);
+
+  app.controller('HackathonController', function($scope, $http){
+    
+    $scope.students = [];
+
+    $http.get("data/students.json").success(function(data){
+      $scope.students = data;
+      console.log(data);
+    });
+
+   $scope.selectStudent = function(student) {
+       $scope.selectedStudent = student;
+   };
+    
+  //   $scope.students = students.sort(function() {
+  //     return .5 - Math.random();
+  //   });
+
+
+
+    
+
+
+  });
+})();
+
 
   var myGame = myGame || {};
   var firstCard;
@@ -64,10 +106,8 @@
 
 
 
-
-
-
   };
+
 
   $(function(){
     myGame.initialize();
