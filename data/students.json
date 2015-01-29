@@ -1,4 +1,5 @@
-[{
+[
+{
 "name":"Luke Grayland",
 "image":"/images/wdi10_people/luke.jpg",
 "phrase":""
@@ -48,53 +49,105 @@
 "image":"images/wdi10_people/mathieu.jpg",
 "phrase":""
 },
+
 {
 "name":"Lisa Pollack",
-"image":"/images/wdi10_people/lisa.jpg",
+"image":"/images/wdi10_people/lisa.jpg"
+},
+
+{
+"name":"Lisa Pollack",
 "phrase":""
 },
+
 {
 "name":"Sebastian Riddle",
-"image":"/images/wdi10_people/sebastian.jpg",
+"image":"/images/wdi10_people/sebastian.jpg"
+},
+
+{
+"name":"Sebastian Riddle",
 "phrase":""
 },
+
 {
 "name":"Andres Vara",
-"image":"/images/wdi10_people/andres.jpg",
+"image":"/images/wdi10_people/andres.jpg"
+},
+
+{
+"name":"Andres Vara",
 "phrase":""
 },
+
 { 
 "name":"Neil Crosbourne",
-"image":"/images/wdi10_people/neil.jpg",
+"image":"/images/wdi10_people/neil.jpg"
+},
+
+{ 
+"name":"Neil Crosbourne",
 "phrase":""
 },
+
 {
 "name":"Daniel Easterman",
-"image":"../images/wdi10_people/daniel.jpg",
+"image":"../images/wdi10_people/daniel.jpg"
+},
+
+{
+"name":"Daniel Easterman",
 "phrase":""
 },
+
 {
 "name":"Bruno Vinel",
-"image":"/images/wdi10_people/bruno.jpg",
+"image":"/images/wdi10_people/bruno.jpg"
+},
+
+{
+"name":"Bruno Vinel",
 "phrase":""
 },
+
 {
 "name":"Michael Pavling",
-"image":"/images/wdi10_people/michael.jpg",
+"image":"/images/wdi10_people/michael.jpg"
+},
+
+{
+"name":"Michael Pavling",
 "phrase":""
 },
+
 {
 "name":"Alex Chin",
-"image":"/images/wdi10_people/alex.jpg",
+"image":"/images/wdi10_people/alex.jpg"
+},
+
+{
+"name":"Alex Chin",
 "phrase":""
 },
+
 {
 "name":"Johanna Colberg",
-"image":"/images/wdi10_people/johanna.jpg",
+"image":"/images/wdi10_people/johanna.jpg"
+},
+
+{
+"name":"Johanna Colberg",
 "phrase":"Looking forward to today, yay and no blockers"
 },
+
 {
 "name":"Jarkyn Soltoba",
-"image":"/images/wdi10_people/jarkyn.jpg",
+"image":"/images/wdi10_people/jarkyn.jpg"
+},
+
+{
+"name":"Jarkyn Soltoba",
 "phrase":""
-}]
+},
+
+];
