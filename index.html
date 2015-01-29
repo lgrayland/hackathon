@@ -13,25 +13,35 @@
 	<script src="js/main.js"></script>	
 	<!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
 </head>
 <body>
 	<div class="hide" id="landing">
-		<div class="logo_section">
-			<img src="/images/ga-logo.png" alt="GA Logo">
+		<div class="logo_bounce" id="logo_section">
+			<img src="/images/ga-logo.png" width=150 heigh=150 class="slideDown" alt="GA Logo">
 		</div>
-		<h2>WDI 10 - London</h2>
-		<h1>Hacky Memory</h1>
-		<h2>Card Game</h2>
+		<p>Click me</p>
+		<h2 class="slideRight">WDI 10 - London</h2>
+		<h1 class="bigEntrance">Hacky Memory</h1>
+		<h3 class="slideLeft">the one and only wdi 10 card game</h3>
 	</div>
 
-	<div id="container" ng-controller="HackathonController">
-		<header>
-			<h1>the one and only wdi 10 card game</h1>
-		</header>
+	<div class="visible" id="instructions">
+		<div id="instructions_container">
+			<h3>Hi Guys, we have a great news!<br>Hacky Memory is the most funny game<br>we have played ever at WDI 10... <br>And it will make the other side<br>of your brains works.<br>So give it a try...</h3>
+			<br>
+			<button type="button" id="button_launch">Play</button>
+			<br>
+		</div>
+	</div>
+
+
+	<div class="hide" id="container" ng-controller="HackathonController">
 
 		<div id="game">
 			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>

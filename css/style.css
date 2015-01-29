@@ -50,19 +50,25 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-   color: #000;
-   font-size: 12px;
-   line-height: 1.4;
-   background-color: #FFFCF9;
-
+  color: rgb(254,1,49);
+  font-size: 12px;
+  line-height: 1.4;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1{
-   text-align: center;
-   font-size: 52px;
-   font-family: 'Megrim', cursive;
-   color: #75C4BC; 
+  font-size: 8em;
+  line-height: 1em;
 }
+h2{
+  font-size: 6em;
+  line-height: 1em;
+}
+h3{
+  font-size: 3em;
+}
+
 /******************************************
 /* LAYOUT                   
 /*******************************************/
@@ -88,9 +94,67 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+#landing{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#logo_section img{
+  margin-right: auto;
+  margin-left: auto;
+} 
+#logo_section img:hover{
+  width: 15%;
+} 
+
+.logo_bounce{
+  animation-name: bounce;
+  -webkit-animation-name: bounce; 
+
+  animation-duration: 1.6s; 
+  -webkit-animation-duration: 1.6s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;  
+  
+  transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;   
+}
+
+#instructions{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#instructions_container{
+  padding: 20px 20px;
+  border: solid 2px;
+  border-radius: 10%;
+  border-color: rgb(254,1,49);
+  box-shadow: 3px 3px 1px gray;
+  text-align: center;
+}
+
+#button_launch{
+  background-color: rgb(254,1,49);
+  border-radius: 28px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#button_launch:hover{
+  font-size: 22px;
+  box-shadow: 3px 3px 1px gray;
+}
+
 #game{
    width: 800px;
-   margin:0 auto;
+   margin:30px auto;
    padding: 30px;
    border: 1px solid black;
    text-align: center;
