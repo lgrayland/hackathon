@@ -28,16 +28,21 @@
   app.controller('HackathonController', function($scope, $http){
 
     $scope.students = [];
-    $scope.matchedStudents = [];
+    var matchedStudents = [];
 
     $http.get("data/students.json").success(function(data){
-      $scope.students = data;
+      $scope.students = data.sort(function() {
+        return .5 - Math.random();
+      });
       console.log(data);
 
       $scope.selectCard = function(student) {
-        if ($scope.first) {
+        if ($scope.first && $scope.second) {
+          checkForMatch();
+          $scope.first = student;
+          $scope.second = null;
+        } else if ($scope.first) {
           $scope.second = student;
-          console.log(student);
         } else {
           $scope.first = student;
         }
@@ -49,7 +54,15 @@
       }
 
       $scope.isMatched = function(student) {
-        return false; // is the student in the array of matched students?
+        // return $scope.first.name == $scope.second.name;
+        // return false; // is the student in the array of matched students?
+        return matchedStudents.indexOf(student) != -1;
+      }
+
+      function checkForMatch(){
+        if ($scope.first.name == $scope.second.name){
+          matchedStudents.push($scope.first, $scope.second);
+        };
       }
 
 
@@ -57,7 +70,7 @@
 
 
 
-  });
+});
 
 
 })();
