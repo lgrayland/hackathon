@@ -1,13 +1,33 @@
-//click on a card, give class selected
-  // click second card, give class selected
-  //check first class against second class. 
-  //compared cards 
-  //if cards are matching, give class matched
-  // if cards dont't match, take away class selected. 
+(function(){
+
+  var app = angular.module('hackathonApp', ['ngAnimate']);
+
+  app.controller('HackathonController', function($scope, $http){
+    
+    $scope.students = [];
+
+    $http.get("data/students.json").success(function(data){
+      $scope.students = data;
+      console.log(data);
+    });
+
+   $scope.selectStudent = function(student) {
+       $scope.selectedStudent = student;
+   };
+    
+  //   $scope.students = students.sort(function() {
+  //     return .5 - Math.random();
+  //   });
+
+  // $scope.selectedStudent = false;
+
+    
 
 
-  //add congratulation when all cards match. 
-  console.log("Hello");
+  });
+})();
+
+
 
   var myGame = myGame || {};
   var firstCard;
@@ -64,10 +84,8 @@
 
 
 
-
-
-
   };
+
 
   $(function(){
     myGame.initialize();

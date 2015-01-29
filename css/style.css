@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     background-color: #FFFCED;
+     background-color: #FFFCF9;
     
 }
 
@@ -57,7 +57,7 @@ h1{
      text-align: center;
      font-size: 52px;
      font-family: 'Megrim', cursive;
-     color: #63A69F; 
+     color: #75C4BC; 
 }
 /******************************************
 /* LAYOUT                   
@@ -91,7 +91,7 @@ footer {
      border: 1px solid black;
      text-align: center;
      border-radius: 10px;
-     background-color: #706F68;
+
 }
 #gameOver{
      display:none;

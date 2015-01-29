@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='hackathonApp'>
 	<head>
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
+
 	
-		<title>Blank Template</title>
-		
+		<title>wdi 10 memory game</title>
+		<script text="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript" src="js/angular-animate.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/main.js"></script>	
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
 		
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="js/main.js"></script>
+		
 	</head>
 	<body>
-		<div id="container">
+		<div id="container" ng-controller="HackathonController">
 			<header>
 				<h1>the one and only wdi 10 card game</h1>
 			</header>
@@ -24,7 +27,7 @@
 			<div id="game">
 				<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
 				<div id="game-cards" class="clearfix">
-					<div class="michael cards"></div>
+					<div class="michael cards" ng-click='selectStudent(student)'></div>
 					<div class="michael cards"></div>
 					<div class="tony cards"></div>
 					<div class="tony cards"></div>
