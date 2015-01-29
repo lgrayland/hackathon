@@ -25,6 +25,10 @@
 
   var app = angular.module('hackathonApp', ['ngAnimate']);
 
+  app.controller('HeaderController', function($scope){
+  
+  });
+
   app.controller('HackathonController', function($scope, $http){
 
     $scope.students = [];
