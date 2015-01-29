@@ -31,21 +31,22 @@
 
 			
 
-				<div class="cards" ng-repeat='student in students' ng-click='selectCard(student)' ng-switch on="student" ng-class="{selected: isSelected(student), matched: isMatched(student)}">
+				<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student), matched: isMatched(student)}">
 
-					<div ng-show="selectCard">
+					<!-- <div ng-show="selectCard"> -->
+					<img src="/images/GA-WDI10-Card-low.png" alt="" ng-hide="first || second">
 
-					<img src="../images/GA-WDI10-Card-low.png" alt="">
+					<img ng-src="/images/GA-WDI10-Card-low.png" alt="" ng-hide="first || second">
 					
-					<div ng-switch-when="student.phrase" >
-						{{ student.phrase }}
+					<div ng-show="first == student || second == student" >
+						{{ student.phrase || student.image }}
 					</div>
 					
-					<div ng-switch-default >
+					<div ng-show="first.image || second.image">
 						<img ng-src="{{ student.image }}" alt="">
 					</div>
 					
-					</div>
+					<!-- </div> -->
 
 
 				</div>

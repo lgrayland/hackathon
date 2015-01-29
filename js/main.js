@@ -38,8 +38,6 @@
         if ($scope.first) {
           $scope.second = student;
           console.log(student);
-
-
         } else {
           $scope.first = student;
         }
