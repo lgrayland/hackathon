@@ -50,7 +50,7 @@
       }
 
     // if cards with class matched = 24 
-    if ($(".matched").length >= 24){
+    if ($(".matched").length >= 34){
       $("#number-of-moves").text(moves); 
       $("#gameOver").show();
 

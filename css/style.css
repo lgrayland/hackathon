@@ -55,6 +55,7 @@ body {
 h1{
      text-align: center;
      font-size: 48px;
+     font-family: 'Megrim', cursive;
 }
 /******************************************
 /* LAYOUT                   
@@ -71,9 +72,10 @@ header {
 }
 
 footer {
-     text-align: right;
+     text-align: center;
      margin-top: 50px;
      width: 795px;
+     line-height: 100px;
 }
 
 /******************************************
@@ -108,18 +110,24 @@ footer {
 .selected,.matched{
      background-image:url(../images/classic-playing-cards.png);
 }
-.king.selected,.king.matched{background-position:-877px -1px;}
-.queen.selected,.queen.matched{background-position:-804px -1px;}
-.jack.selected,.jack.matched{background-position:-731px -1px;}
-.ten.selected,.ten.matched{background-position:-658px -1px;}
-.nine.selected,.nine.matched{background-position:-585px -1px;}
-.eight.selected,.eight.matched{background-position:-512px -1px;}
-.seven.selected,.seven.matched{background-position:-439px -1px;}
-.six.selected,.six.matched{background-position:-366px -1px;}
-.five.selected,.five.matched{background-position:-293px -1px;}
-.four.selected,.four.matched{background-position:-220px -1px;}
-.three.selected,.three.matched{background-position:-147px -1px;}
-.two.selected,.two.matched{background-position:-74px -1px;}
+.michael.selected,.michael.matched{background-position:-877px -1px;}
+.tony.selected,.tony.matched{background-position:-804px -1px;}
+.rabea.selected,.rabea.matched{background-position:-731px -1px;}
+.nina.selected,.nina.matched{background-position:-658px -1px;}
+.sophie.selected,.sophie.matched{background-position:-658px -1px;}
+.daniel.selected,.daniel.matched{background-position:-585px -1px;}
+.sadiq.selected,.sadiq.matched{background-position:-512px -1px;}
+.julia.selected,.julia.matched{background-position:-439px -1px;}
+.ellie.selected,.ellie.matched{background-position:-366px -1px;}
+.lisa.selected,.lisa.matched{background-position:-293px -1px;}
+.sebastian.selected,.sebastian.matched{background-position:-220px -1px;}
+.joel.selected,.joel.matched{background-position:-147px -1px;}
+.mathieu.selected,.mathieu.matched{background-position:-74px -1px;}
+.neil.selected,.neil.matched{background-position:-293px -1px;}
+.andres.selected,.andres.matched{background-position:-220px -1px;}
+.luke.selected,.luke.matched{background-position:-147px -1px;}
+.joel.selected,.joel.matched{background-position:-74px -1px;}
+
 /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 
 
