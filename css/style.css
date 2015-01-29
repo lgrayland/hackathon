@@ -101,13 +101,17 @@ footer {
      display:none;
 }
 .cards{
-     height:96px;
-     width:71px;
-     background-image:url(../images/back-of-card.png);
+     background: url(../images/GA-WDI10-Card-low.png) no-repeat ;
+     ;
+     width: 210px;
+     border-radius: 100%
      cursor:pointer;
      margin:10px;
      float: left;
 }
+
+
+
 .matched{
      border:1px solid green;
 }
@@ -115,13 +119,14 @@ footer {
      -webkit-transform:scale(1.5);
      transform:scale(1.5);
 }
-.selected,.matched{
+/*.selected,.matched{
      background-image:url(../images/classic-playing-cards.png);
-}
+}*/
 
 .cards img{
      height: 200px;
-     width: 130px;
+     width: 200px;
+     border-radius: 100%
 }
 
 /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/

@@ -26,16 +26,26 @@
 
 		<div id="game">
 			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
+			
 			<div id="game-cards" class="clearfix">
 
-				<div class="cards selected" ng-repeat='student in students' ng-click='selectStudent()' ng-switch on="student" >
-					<div ng-switch-when="student.phrase">
+			
+
+				<div class="cards" ng-repeat='student in students' ng-click='selectCard(student)' ng-switch on="student" ng-class="{selected: isSelected(student), matched: isMatched(student)}">
+
+					<div ng-show="selectCard">
+
+					<img src="../images/GA-WDI10-Card-low.png" alt="">
+					
+					<div ng-switch-when="student.phrase" >
 						{{ student.phrase }}
 					</div>
-					<div ng-switch-default>
+					
+					<div ng-switch-default >
 						<img ng-src="{{ student.image }}" alt="">
 					</div>
-
+					
+					</div>
 
 
 				</div>
