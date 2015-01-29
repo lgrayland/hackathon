@@ -100,6 +100,10 @@ footer {
   font-family: 'Noto Sans', sans-serif;
 }
 
+#landing p{
+  font-size: 1em;
+}
+
 #logo_section img{
   margin-right: auto;
   margin-left: auto;
