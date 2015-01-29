@@ -126,5 +126,165 @@ footer {
 
   /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 
+.log-link{
+  background-color: grey;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+ a:hover .log-link{
+  color: white;
+  text-decoration: none;
+
+}
+a:visited .log-link {
+  color: white;
+  text-decoration: none;
+
+}
+.log-link a:hover{
+  color: black;
+  text-decoration: none;
+
+}
+
+
+/*******************documentation*/
+
+.body-documentation, html {
+  /* important */
+  
+  height: 100%;
+}
+
+
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/13.52.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/14.10.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/14.jpg");
+}
+
+.cd-fixed-bg.cd-bg-31 {
+  background-image: url("../images/14.17.JPG");
+}
+
+.cd-fixed-bg.cd-bg-32 {
+  background-image: url("../images/14.21.JPG");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/15.20.jpg");
+}
+
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("../images/15.25.jpg");
+}
+
+.cd-fixed-bg.cd-bg-51 {
+  background-image: url("../images/15.33.jpg");
+}
+.cd-fixed-bg.cd-bg-6 {
+  background-image: url("../images/16.03.jpg");
+}
+
+.cd-fixed-bg.cd-bg-61 {
+  background-image: url("../images/16.45.JPG");
+}
+
+.cd-fixed-bg.cd-bg-62 {
+  background-image: url("../images/16.54.JPG");
+}
+
+.cd-fixed-bg.cd-bg-63 {
+  background-image: url("../images/16.55.JPG");
+}
+
+.cd-fixed-bg.cd-bg-64 {
+  background-image: url("../images/16.56.JPG");
+}
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url("../images/bruno.jpg");
+}
+.cd-fixed-bg.cd-bg-8 {
+  background-image: url("../images/daniel.jpg");
+}
+
+.cd-fixed-bg.cd-bg-9 {
+  background-image: url("../images/15.25.jpg");
+}
+.cd-fixed-bg.cd-bg-10 {
+  background-image: url("../images/16.03.jpg");
+}
+
+.cd-fixed-bg.cd-bg-12 {
+  background-image: url("../images/daniel.jpg");
+}
+
+.cd-fixed-bg.cd-bg-13 {
+  background-image: url("../images/ellie.jpg");
+}
+.cd-fixed-bg.cd-bg-14 {
+  background-image: url("../images/joel.jpg");
+}
+.cd-fixed-bg.cd-bg-15 {
+  background-image: url("../images/lisa.jpg");
+}
+.cd-fixed-bg.cd-bg-16 {
+  background-image: url("../images/luke.jpg");
+}
+
+.cd-fixed-bg.cd-bg-17 {
+  background-image: url("../images/mathieu.jpg");
+}
+
+.cd-fixed-bg.cd-bg-18 {
+  background-image: url("../images/17.03.jpg");
+}
+.cd-fixed-bg.cd-bg-19 {
+  background-image: url("../images/17.17.jpg");
+}
+.cd-fixed-bg.cd-bg-20 {
+  background-image: url("../images/17.30.jpg");
+}
+.cd-fixed-bg.cd-bg-21 {
+  background-image: url("../images/19.30.jpg");
+}
+.cd-fixed-bg.cd-bg-211 {
+  background-image: url("../images/20.11.JPG");
+}
+
+ 
+.cd-scrolling-bg {
+  min-height: 100%;
+}
+
+.body-documentation h1{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 100px;
+  margin: 0;
+}
+
+p{
+  text-align: center;
+  font-size: 200px ;
+}
+
 
 
