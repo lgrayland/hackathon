@@ -50,51 +50,51 @@
 },
 {
 "name":"Lisa Pollack",
-"image":"http://im.ft-static.com/content/images/fcfef110-3519-11e4-aa47-00144feabdc0.gif",
+"image":"/images/wdi10_people/lisa.jpg",
 "phrase":""
 },
 {
 "name":"Sebastian Riddle",
-"image":"https://lh6.googleusercontent.com/-gSQIG9Agcng/AAAAAAAAAAI/AAAAAAAAAUE/o9Tf1QqRALQ/photo.jpg",
+"image":"/images/wdi10_people/sebastian.jpg",
 "phrase":""
 },
 {
 "name":"Andres Vara",
-"image":"https://avatars1.githubusercontent.com/u/5411068?v=3&s=460",
+"image":"/images/wdi10_people/andres.jpg",
 "phrase":""
 },
 { 
 "name":"Neil Crosbourne",
-"image":"/images/WDI.png",
+"image":"/images/wdi10_people/neil.jpg",
 "phrase":""
 },
 {
 "name":"Daniel Easterman",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10398583_609165776975_3493296_n.jpg?oh=e9028e34ba3320e3e2c9a2d638d91592&oe=55618B09",
+"image":"../images/wdi10_people/daniel.jpg",
 "phrase":""
 },
 {
 "name":"Bruno Vinel",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10629826_818158614882748_350563035857373054_n.jpg?oh=d62a5fb2adcae4e33a4279ee0ce5adcf&oe=55669564",
+"image":"/images/wdi10_people/bruno.jpg",
 "phrase":""
 },
 {
-"name":"Micheal Pavling",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10629826_818158614882748_350563035857373054_n.jpg?oh=d62a5fb2adcae4e33a4279ee0ce5adcf&oe=55669564",
+"name":"Michael Pavling",
+"image":"/images/wdi10_people/michael.jpg",
 "phrase":""
 },
 {
 "name":"Alex Chin",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10629826_818158614882748_350563035857373054_n.jpg?oh=d62a5fb2adcae4e33a4279ee0ce5adcf&oe=55669564",
+"image":"/images/wdi10_people/alex.jpg",
 "phrase":""
 },
 {
 "name":"Johanna Colberg",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10629826_818158614882748_350563035857373054_n.jpg?oh=d62a5fb2adcae4e33a4279ee0ce5adcf&oe=55669564",
+"image":"/images/wdi10_people/johanna.jpg",
 "phrase":"Looking forward to today, yay and no blockers"
 },
 {
 "name":"Jarkyn Soltoba",
-"image":"https://scontent-a-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10629826_818158614882748_350563035857373054_n.jpg?oh=d62a5fb2adcae4e33a4279ee0ce5adcf&oe=55669564",
+"image":"/images/wdi10_people/jarkyn.jpg",
 "phrase":""
 }]
