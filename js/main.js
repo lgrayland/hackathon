@@ -21,7 +21,6 @@
 //     Finish page is displayed (picture of of WDI10 with message)
 
 
-
 (function(){
 
   var app = angular.module('hackathonApp', ['ngAnimate']);
@@ -43,7 +42,7 @@
   //     return .5 - Math.random();
   //   });
 
-  // $scope.selectedStudent = false;
+
 
     
 
