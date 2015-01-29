@@ -5,7 +5,7 @@
     },
     {
         "name": "Luke Grayland",
-        "phrase": "/images/wdi10_people/p_luke.jpg"
+        "phrase": "BBURRPP"
     },
     {
         "name": "Antonio Goncalves",
@@ -13,7 +13,7 @@
     },
     {
         "name": "Antonio Goncalves",
-        "phrase": "/images/wdi10_people/p_tony.jpg"
+        "phrase": "I had a really bad night last night. Then I fired someone and felt better."
     },
     {
         "name": "Ellie Mcgregor",
@@ -21,63 +21,63 @@
     },
     {
         "name": "Ellie Mcgregor",
-        "phrase": "/images/wdi10_people/p_ellie.jpg"
+        "phrase": "When's our coffee break?? Can someone ask?"
     },
     {
         "name": "Julia Mansson",
-        "image": "/images/wdi10_people/julia.jpg"
+        "image": "images/wdi10_people/julia.jpg"
     },
     {
         "name": "Julia Mansson",
-        "phrase": "/images/wdi10_people/p_julia.jpg"
+        "phrase": "My code is fucked"
     },
     {
         "name": "Joel Pickup",
-        "image": "/images/wdi10_people/joel.jpg"
+        "image": "images/wdi10_people/joel.jpg"
     },
     {
         "name": "Joel Pickup",
-        "phrase": "/images/wdi10_people/p_joel.jpg"
+        "phrase": "I know the answer to that!"
     },
     {
         "name": "Rabea Gleissner",
-        "image": "/images/wdi10_people/rabea.jpg"
+        "image": "images/wdi10_people/rabea.jpg"
     },
     {
         "name": "Rabea Gleissner",
-        "phrase": "/images/wdi10_people/p_rabea.jpg"
+        "phrase": "Ooooooooh Ja ach sooooo!!!!"
     },
     {
         "name": "Nina Regli",
-        "image": "/images/wdi10_people/nina.jpg"
+        "image": "images/wdi10_people/nina.jpg"
     },
     {
         "name": "Nina Regli",
-        "phrase": "/images/wdi10_people/p_nina.jpg"
+        "phrase": "Is there a chocolate Javascript version"
     },
     {
         "name": "Sadiq Okocha",
-        "image": "/images/wdi10_people/sadiq.jpg"
+        "image": "images/wdi10_people/sadiq.jpg"
     },
     {
         "name": "Sadiq Okocha",
-        "phrase": "/images/wdi10_people/p_sadiq.jpg"
+        "phrase": "They call me Sadizzle"
     },
     {
         "name": "Sophie Cottin",
-        "image": "/images/wdi10_people/sophie.jpg"
+        "image": "images/wdi10_people/sophie.jpg"
     },
     {
         "name": "Sophie Cottin",
-        "phrase": "/images/wdi10_people/p_sophie.jpg"
+        "phrase": "Voila, j'aime everybody today! it's friday!"
     },
     {
         "name": "Mathieu Gordon",
-        "image": "/images/wdi10_people/mathieu.jpg"
+        "image": "images/wdi10_people/mathieu.jpg"
     },
     {
         "name": "Mathieu Gordon",
-        "phrase": "/images/wdi10_people/p_mathieu.jpg"
+        "phrase": "sorry, finance is not my strong point"
     },
     {
         "name": "Lisa Pollack",
@@ -85,7 +85,7 @@
     },
     {
         "name": "Lisa Pollack",
-        "phrase": "/images/wdi10_people/p_lisa.jpg"
+        "phrase": "Does it work with the FT's API?"
     },
     {
         "name": "Sebastian Riddle",
@@ -93,7 +93,7 @@
     },
     {
         "name": "Sebastian Riddle",
-        "phrase": "/images/wdi10_people/p_sebastian.jpg"
+        "phrase": "I went down a massive rabbit hole!"
     },
     {
         "name": "Andres Vara",
@@ -101,7 +101,7 @@
     },
     {
         "name": "Andres Vara",
-        "phrase": "/images/wdi10_people/p_andres.jpg"
+        "phrase": "hhhhhhhiiiiipChat!"
     },
     {
         "name": "Neil Crosbourne",
@@ -109,15 +109,15 @@
     },
     {
         "name": "Neil Crosbourne",
-        "phrase": "/images/wdi10_people/p_neil.jpg"
+        "phrase": "Basically, essentially I had 90% of it working"
     },
     {
         "name": "Daniel Easterman",
-        "image": "/images/wdi10_people/daniel.jpg"
+        "image": " /images/wdi10_people/daniel.jpg"
     },
     {
         "name": "Daniel Easterman",
-        "phrase": "/images/wdi10_people/p_daniel.jpg"
+        "phrase": ""
     },
     {
         "name": "Bruno Vinel",
@@ -125,7 +125,7 @@
     },
     {
         "name": "Bruno Vinel",
-        "phrase": "/images/wdi10_people/p_bruno.jpg"
+        "phrase": "Alors, today we would like to present our new concept: online doggy dating."
     },
     {
         "name": "Michael Pavling",
@@ -133,7 +133,7 @@
     },
     {
         "name": "Michael Pavling",
-        "phrase": "/images/wdi10_people/p_michael.jpg"
+        "phrase": "Cool, cool, cool swing those moods!"
     },
     {
         "name": "Alex Chin",
@@ -141,7 +141,7 @@
     },
     {
         "name": "Alex Chin",
-        "phrase": "/images/wdi10_people/p_alex.jpg"
+        "phrase": "Potentially. You could do that. But its potentially not going to work"
     },
     {
         "name": "Johanna Colberg",
@@ -149,7 +149,7 @@
     },
     {
         "name": "Johanna Colberg",
-        "phrase": "/images/wdi10_people/p_johanna.jpg"
+        "phrase": "Looking forward to today, yay and no blockers"
     },
     {
         "name": "Jarkyn Soltobaeva",
@@ -157,6 +157,6 @@
     },
     {
         "name": "Jarkyn Soltobaeva",
-        "phrase": "/images/wdi10_people/p_jarkyn.jpg"
+        "phrase": "Morning guys, sorry I'm late, I got another flat tyre"
     }
 ]
