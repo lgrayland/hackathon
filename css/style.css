@@ -12,19 +12,19 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+   -moz-box-sizing: border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+   box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
 }
 
 .clear {
@@ -32,7 +32,7 @@ Developer @GA in NYC
 }
 
 .hide {
-     display: none;
+   display: none;
 }
 
 .alignright {
@@ -50,18 +50,18 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     background-color: #FFFCF9;
-    
+   color: #000;
+   font-size: 12px;
+   line-height: 1.4;
+   background-color: #FFFCF9;
+
 }
 
 h1{
-     text-align: center;
-     font-size: 52px;
-     font-family: 'Megrim', cursive;
-     color: #75C4BC; 
+   text-align: center;
+   font-size: 52px;
+   font-family: 'Megrim', cursive;
+   color: #75C4BC; 
 }
 /******************************************
 /* LAYOUT                   
@@ -79,57 +79,52 @@ header {
 }
 
 footer {
-     text-align: center;
-     margin-top: 50px;
-     width: 795px;
-     line-height: 100px;
+   text-align: center;
+   margin-top: 50px;
+   width: 795px;
+   line-height: 100px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
 #game{
-     width: 1000px;
-     margin:0 auto;
-     padding: 30px;
-     border: 1px solid black;
-     text-align: center;
-     border-radius: 10px;
+   width: 800px;
+   margin:0 auto;
+   padding: 30px;
+   border: 1px solid black;
+   text-align: center;
+   border-radius: 10px;
 
 }
 #gameOver{
-     display:none;
+   display:none;
 }
 .card{
-     /*background: url(../images/GA-WDI10-Card-low.png) no-repeat ;*/
-     ;
-     width: 210px;
-     border-radius: 100%
-     cursor:pointer;
-     margin:10px;
-     float: left;
+   cursor:pointer;
+   display:inline-block;
 }
 
 
 
 .matched{
-     border:1px solid green;
+   border:1px solid green;
 }
 .cheat{
-     -webkit-transform:scale(1.5);
-     transform:scale(1.5);
+   -webkit-transform:scale(1.5);
+   transform:scale(1.5);
 }
 /*.selected,.matched{
      background-image:url(../images/classic-playing-cards.png);
-}*/
+     }*/
 
-.card img{
-     height: 200px;
-     width: 200px;
-     border-radius: 100%
-}
+     .card img{
+      height: 100px;
+      width: 71px;
 
-/*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
+  }
+
+  /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 
 
 
