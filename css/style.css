@@ -31,6 +31,10 @@ Developer @GA in NYC
 	clear: both;
 }
 
+.hide {
+     display: none;
+}
+
 .alignright {
 	float: right; 
 	padding: 0 0 10px 10px; /* note the padding around a right floated image */
