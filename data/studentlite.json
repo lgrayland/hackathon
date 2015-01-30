@@ -1,0 +1,27 @@
+[
+
+    {
+        "name": "Luke Grayland",
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg"
+    },
+    {
+        "name": "Luke Grayland",
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_luke.jpg"
+    },
+    {
+        "name": "Antonio Goncalves",
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/tony.jpg"
+    },
+    {
+        "name": "Antonio Goncalves",
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_tony.jpg"
+    },
+    {
+        "name": "Ellie Mcgregor",
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg"
+    },
+    {
+        "name": "Ellie Mcgregor",
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_ellie.jpg"
+    }
+]

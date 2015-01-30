@@ -1,18 +1,18 @@
 * {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
 }
 .clearfix:after {
-   content: ".";
-   display: block;
-   clear: both;
-   visibility: hidden;
-   line-height: 0;
-   height: 0;
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
 }
 .hide {
- display: none;
+   display: none;
 }
 body {
   color: rgb(254,1,49);
@@ -44,9 +44,9 @@ h3{
 header {
 }
 footer {
-   text-align: center;
-   width: 100%;
-   line-height: 100px;
+ text-align: center;
+ width: 100%;
+ line-height: 100px;
 }
 /******************************************
 /* ADDITIONAL STYLES                   
@@ -137,285 +137,319 @@ footer {
   font-size: 50px;
 }
 #game{
-   width: 1300px;
-   margin:0 auto;
-   padding: 30px;
-   border: 1px solid black;
-   text-align: center;
-   border-radius: 10px;
-}
-#gameOver{
-   display:none;
+ width: 1300px;
+ margin:0 auto;
+ padding: 30px;
+ border: 1px solid black;
+ text-align: center;
+ border-radius: 10px;
 }
 .card{
-   cursor:pointer;
-   display:inline-block;
+ cursor:pointer;
+ display:inline-block;
 }
-.matched{
-   border:1px solid green;
+.matched {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;  
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.7;   
+    }           
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
 }
 .cheat{
-   -webkit-transform:scale(1.5);
-   transform:scale(1.5);
+ -webkit-transform:scale(1.5);
+ transform:scale(1.5);
 }
 /*.selected,.matched{
      background-image:url(../images/classic-playing-cards.png);
      }*/
-     .card img{
+     .card img {
       height: 140px;
       width: 100px;
       margin: 0 8px;
   }
   /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
-.log-link{
-  position: relative;
-  z-index: 10;
-  background-color: white;
-  width: 500px;
-  display: block;
-  text-align: center;
-  padding: 20px 5px;
-  font-size: 25px;
-  margin-left: -40px;
-  text-decoration: none;
-  color: black;
-  -ms-transform: rotate(30deg); /* IE 9 */
+  .log-link{
+      position: relative;
+      z-index: 10;
+      background-color: white;
+      width: 500px;
+      display: block;
+      text-align: center;
+      padding: 20px 5px;
+      font-size: 25px;
+      margin-left: -40px;
+      text-decoration: none;
+      color: black;
+      -ms-transform: rotate(30deg); /* IE 9 */
       -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
       transform: rotate(30deg);
 
-}
+  }
 
-a:visited .log-link {
-  color: white;
-  text-decoration: none;
-}
- a:hover{
-  color: red;
-  text-decoration: none;
-  background-color: #E8E5E5;
-}
-.body-documentation, html {
-  height: 100%;
-}
-.cd-fixed-bg {
-  min-height: 100%;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.cd-fixed-bg.cd-bg-1 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/13.52.jpg");
+  a:visited .log-link {
+      color: white;
+      text-decoration: none;
+  }
+  a:hover{
+      color: red;
+      text-decoration: none;
+      background-color: #E8E5E5;
+  }
+  .body-documentation, html {
+      height: 100%;
+  }
+  .cd-fixed-bg {
+      min-height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  .cd-fixed-bg.cd-bg-1 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/13.52.jpg");
 
-}
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
-}
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.jpg");
-}
-.cd-fixed-bg.cd-bg-31 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.JPG");
-}
-.cd-fixed-bg.cd-bg-32 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.JPG");
-}
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
-}
-.cd-fixed-bg.cd-bg-5 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
-}
-.cd-fixed-bg.cd-bg-51 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
-}
-.cd-fixed-bg.cd-bg-6 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
-}
-.cd-fixed-bg.cd-bg-61 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.JPG");
-}
-.cd-fixed-bg.cd-bg-62 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.JPG");
-}
+  }
+  .cd-fixed-bg.cd-bg-2 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
+  }
+  .cd-fixed-bg.cd-bg-3 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.jpg");
+  }
+  .cd-fixed-bg.cd-bg-31 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.JPG");
+  }
+  .cd-fixed-bg.cd-bg-32 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.JPG");
+  }
+  .cd-fixed-bg.cd-bg-4 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
+  }
+  .cd-fixed-bg.cd-bg-5 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
+  }
+  .cd-fixed-bg.cd-bg-51 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
+  }
+  .cd-fixed-bg.cd-bg-6 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
+  }
+  .cd-fixed-bg.cd-bg-61 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.JPG");
+  }
+  .cd-fixed-bg.cd-bg-62 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.JPG");
+  }
 
-.cd-fixed-bg.cd-bg-63 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.JPG");
-}
+  .cd-fixed-bg.cd-bg-63 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.JPG");
+  }
 
-.cd-fixed-bg.cd-bg-64 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.JPG");
-}
-.cd-fixed-bg.cd-bg-7 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg");
-}
-.cd-fixed-bg.cd-bg-8 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
-}
+  .cd-fixed-bg.cd-bg-64 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.JPG");
+  }
+  .cd-fixed-bg.cd-bg-7 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg");
+  }
+  .cd-fixed-bg.cd-bg-8 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
+  }
 
-.cd-fixed-bg.cd-bg-9 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
-}
-.cd-fixed-bg.cd-bg-10 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
-}
+  .cd-fixed-bg.cd-bg-9 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
+  }
+  .cd-fixed-bg.cd-bg-10 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
+  }
 
-.cd-fixed-bg.cd-bg-12 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
-}
+  .cd-fixed-bg.cd-bg-12 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
+  }
 
-.cd-fixed-bg.cd-bg-13 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg");
-}
-.cd-fixed-bg.cd-bg-14 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel.jpg");
-}
-.cd-fixed-bg.cd-bg-15 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg");
-}
-.cd-fixed-bg.cd-bg-16 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg");
-}
+  .cd-fixed-bg.cd-bg-13 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg");
+  }
+  .cd-fixed-bg.cd-bg-14 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel.jpg");
+  }
+  .cd-fixed-bg.cd-bg-15 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg");
+  }
+  .cd-fixed-bg.cd-bg-16 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg");
+  }
 
-.cd-fixed-bg.cd-bg-17 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu.jpg");
-}
+  .cd-fixed-bg.cd-bg-17 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu.jpg");
+  }
 
-.cd-fixed-bg.cd-bg-18 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.03.jpg");
-}
-.cd-fixed-bg.cd-bg-19 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.17.jpg");
-}
-.cd-fixed-bg.cd-bg-20 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.30.jpg");
-}
-.cd-fixed-bg.cd-bg-21 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
-}
-.cd-fixed-bg.cd-bg-211 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.JPG");
-}
-.cd-scrolling-bg {
-  min-height: 100%;
-}
-.body-documentation h1{
-  color: white;
-  text-align: center;
-  padding-top: 150px;
-  font-size: 100px;
-  margin: 0;
-}
-.cd-container h1{
-  color: black;
-}
+  .cd-fixed-bg.cd-bg-18 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.03.jpg");
+  }
+  .cd-fixed-bg.cd-bg-19 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.17.jpg");
+  }
+  .cd-fixed-bg.cd-bg-20 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.30.jpg");
+  }
+  .cd-fixed-bg.cd-bg-21 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
+  }
+  .cd-fixed-bg.cd-bg-211 {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.JPG");
+  }
+  .cd-scrolling-bg {
+      min-height: 100%;
+  }
+  .body-documentation h1{
+      color: white;
+      text-align: center;
+      padding-top: 150px;
+      font-size: 100px;
+      margin: 0;
+  }
+  .cd-container h1{
+      color: black;
+  }
 
-.body-documentation p{
-  text-align: center;
-  font-size: 200px ;
-}
+  .body-documentation p{
+      text-align: center;
+      font-size: 200px ;
+  }
 
-.cd-color-1{
-  background-color: #ED5565
-}
-
-
-.cd-color-2{
-  background-color: #4FC1E9;
-}
+  .cd-color-1{
+      background-color: #ED5565
+  }
 
 
-.cd-color-3{
-  background-color: #FC6E51;
-}
+  .cd-color-2{
+      background-color: #4FC1E9;
+  }
 
-.cd-color-31{
-  background-color: #E9573F;
-}
 
-.cd-color-32{
-  background-color: #F6BB42;
-}
+  .cd-color-3{
+      background-color: #FC6E51;
+  }
 
-.cd-color-4{
-  background-color: #F6BB42;
-}
+  .cd-color-31{
+      background-color: #E9573F;
+  }
 
-.cd-color-9{
-  background-color: #656D78;
-}
+  .cd-color-32{
+      background-color: #F6BB42;
+  }
 
-.cd-color-51{
-  background-color: #A0D468;
-}
-.cd-color-6{
-  background-color: #16A085;
-}
+  .cd-color-4{
+      background-color: #F6BB42;
+  }
 
-.cd-color-10{
-  background-color: #F39C12;
-}
+  .cd-color-9{
+      background-color: #656D78;
+  }
 
-.cd-color-61{
-  background-color: #9B59B6;
-}
+  .cd-color-51{
+      background-color: #A0D468;
+  }
+  .cd-color-6{
+      background-color: #16A085;
+  }
 
-.cd-color-62{
-  background-color: #BDC3C7;
-}
+  .cd-color-10{
+      background-color: #F39C12;
+  }
 
-.cd-color-63{
-  background-color: #2ECC71;
-}
+  .cd-color-61{
+      background-color: #9B59B6;
+  }
 
-.cd-color-64{
-  background-color: #3498DB;
-}
-.cd-color-7{
-  background-color: #8E44AD;
-}
-.cd-color-8{
-  background-color: #E67E22;
-}
+  .cd-color-62{
+      background-color: #BDC3C7;
+  }
 
-.cd-color-12{
-  background-color: #9B59B6;
-}
+  .cd-color-63{
+      background-color: #2ECC71;
+  }
 
-.cd-color-13{
-  background-color: #2980B9;
-}
+  .cd-color-64{
+      background-color: #3498DB;
+  }
+  .cd-color-7{
+      background-color: #8E44AD;
+  }
+  .cd-color-8{
+      background-color: #E67E22;
+  }
 
-.cd-color-14{
-  background-color: #16A085;
-}
+  .cd-color-12{
+      background-color: #9B59B6;
+  }
 
-.cd-color-15{
-  background-color: #F39C12;
-}
+  .cd-color-13{
+      background-color: #2980B9;
+  }
 
-.cd-color-16{
-  background-color: #27AE60;
-}
-.cd-color-17{
-  background-color: #3498DB;
-}
+  .cd-color-14{
+      background-color: #16A085;
+  }
 
-.cd-color-18{
-  background-color: #7F8C8D;
-}
+  .cd-color-15{
+      background-color: #F39C12;
+  }
 
-.cd-color-19{
-  background-color: #C0392B;
-}
+  .cd-color-16{
+      background-color: #27AE60;
+  }
+  .cd-color-17{
+      background-color: #3498DB;
+  }
 
-.cd-color-20{
-  background-color: #2980B9;
-}
+  .cd-color-18{
+      background-color: #7F8C8D;
+  }
 
-.cd-color-21{
-  background-color: #16A085;
-}
-.cd-color-211{
-  background-color: #27AE60;
-}
+  .cd-color-19{
+      background-color: #C0392B;
+  }
+
+  .cd-color-20{
+      background-color: #2980B9;
+  }
+
+  .cd-color-21{
+      background-color: #16A085;
+  }
+  .cd-color-211{
+      background-color: #27AE60;
+  }

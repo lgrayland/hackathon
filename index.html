@@ -25,44 +25,44 @@
 			</div>
 			<p>Do you wanna play? Yeah? Click me!</p>
 			<h3 class="slideRight">WDI 10 - London</h2>
-			<h1 class="bigEntrance">HACKY MEMORY</h1>
-			<h3 class="slideLeft">the one and only wdi 10 card game</h3>
-		</div>
-
-		<div ng-show="hide && !play" id="instructions">
-			<div id="instructions_container">
-				<h3>Hi Guys, we have great news!<br>Our Hacky Memory game is probably the most fun you'll ever have on WDI!<br> Test yourself on how well you know the group by matching people with their phrases. </br>Lets get started!</br>
-				</h3>
-				<br>
-				<button type="button" id="button_launch" ng-click="play=true" ng-init="play=false">Play</button>
-				<br>
+				<h1 class="bigEntrance">HACKY MEMORY</h1>
+				<h3 class="slideLeft">the one and only wdi 10 card game</h3>
 			</div>
-		</div>
+
+			<div ng-show="hide && !play" id="instructions">
+				<div id="instructions_container">
+					<h3>Hi Guys, we have great news!<br>Our Hacky Memory game is probably the most fun you'll ever have on WDI!<br> Test yourself on how well you know the group by matching people with their phrases. </br>Lets get started!</br>
+					</h3>
+					<br>
+					<button type="button" id="button_launch" ng-click="play=true" ng-init="play=false">Play</button>
+					<br>
+				</div>
+			</div>
 
 
 
 
-		<div id="game" ng-show="hide && play" >
-			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
-			
-			<div id="game-cards" class="clearfix">
+			<div id="game" ng-show="hide && play" >
 
-				<h2>Number of clicks {{ clickCount }}</h2>
+				<div id="game-cards" class="clearfix">
 
-				<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student), expandOpen: isSelected(student) }">
+					<h2 ng-hide="gameWon()">Number of clicks {{ clickCount }}</h2>
 
-					<!-- <div ng-show="selectCard"> -->
-					<img src="/images/GA-WDI10-Card.png" ng-hide="first == student || second == student || isMatched(student)">
+					<h2 id="gameOver" ng-show="gameWon()">Well done smart arse! You've matched all cards in <span id="number-of-moves"></span> {{ clickCount }} moves</h2>
 
-					<img ng-src="{{ student.image || student.phrase }}" alt="" ng-show="first == student || second == student || isMatched(student)">
+					<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student), expandOpen: isSelected(student) }">
+
+						<img src="/images/GA-WDI10-Card.png" ng-hide="first == student || second == student || isMatched(student)">
+
+						<img ng-src="{{ student.image || student.phrase }}" ng-show="first == student || second == student || isMatched(student)" ng-class="{matched: isMatched(student), pulse: matched}">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<br>
+		<br>
 
-	<a href="documentation.html" title="documentation" class="log-link">Behind the hacky scenes</a></li>
-	
+		<a href="documentation.html" title="documentation" class="log-link">Behind the hacky scenes</a></li>
+	</div>
 	<footer>
 		&copy; General Assembly wdi 10
 	</footer>
