@@ -20,6 +20,7 @@ body {
   line-height: 1.4;
   background-color: black;
   font-family: 'Special Elite', cursive;
+  letter-spacing: 0.3em
 }
 h1{
   font-size: 8em;
@@ -98,15 +99,37 @@ footer {
   border-radius: 28px;
   color: white;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 30px 50px;
   text-decoration: none;
-  -webkit-appearance:none 
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
+
+#button_launch:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 #button_launch:hover{
   font-size: 22px;
 }
 #game{
-   width: 1100px;
+   width: 1300px;
    margin:0 auto;
    padding: 30px;
    border: 1px solid black;
@@ -138,19 +161,18 @@ footer {
   /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 .log-link{
   background-color: white;
-  margin: 0 auto;
   width: 500px;
   display: block;
   text-align: center;
-  padding: 40px;
+  padding: 25px;
   font-size: 30px;
   text-decoration: none;
   color: black;
+  -ms-transform: rotate(30deg); /* IE 9 */
+      -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+      transform: rotate(30deg);
 }
- a:hover .log-link{
-  color: white;
-  text-decoration: none;
-}
+
 a:visited .log-link {
   color: white;
   text-decoration: none;
@@ -158,6 +180,7 @@ a:visited .log-link {
  a:hover{
   color: red;
   text-decoration: none;
+  background-color: #E8E5E5;
 }
 .body-documentation, html {
   height: 100%;
@@ -170,95 +193,96 @@ a:visited .log-link {
   background-position: center center;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/13.52.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/13.52.jpg");
+
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../images/14.10.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../images/14.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.jpg");
 }
 .cd-fixed-bg.cd-bg-31 {
-  background-image: url("../images/14.17.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.JPG");
 }
 .cd-fixed-bg.cd-bg-32 {
-  background-image: url("../images/14.21.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.JPG");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../images/15.20.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
 }
 .cd-fixed-bg.cd-bg-5 {
-  background-image: url("../images/15.25.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
 }
 .cd-fixed-bg.cd-bg-51 {
-  background-image: url("../images/15.33.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
 }
 .cd-fixed-bg.cd-bg-6 {
-  background-image: url("../images/16.03.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
 }
 .cd-fixed-bg.cd-bg-61 {
-  background-image: url("../images/16.45.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.JPG");
 }
 .cd-fixed-bg.cd-bg-62 {
-  background-image: url("../images/16.54.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.JPG");
 }
 
 .cd-fixed-bg.cd-bg-63 {
-  background-image: url("../images/16.55.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.JPG");
 }
 
 .cd-fixed-bg.cd-bg-64 {
-  background-image: url("../images/16.56.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.JPG");
 }
 .cd-fixed-bg.cd-bg-7 {
-  background-image: url("../images/bruno.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg");
 }
 .cd-fixed-bg.cd-bg-8 {
-  background-image: url("../images/daniel.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
 }
 
 .cd-fixed-bg.cd-bg-9 {
-  background-image: url("../images/15.25.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
 }
 .cd-fixed-bg.cd-bg-10 {
-  background-image: url("../images/16.03.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
 }
 
 .cd-fixed-bg.cd-bg-12 {
-  background-image: url("../images/daniel.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
 }
 
 .cd-fixed-bg.cd-bg-13 {
-  background-image: url("../images/ellie.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg");
 }
 .cd-fixed-bg.cd-bg-14 {
-  background-image: url("../images/joel.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel.jpg");
 }
 .cd-fixed-bg.cd-bg-15 {
-  background-image: url("../images/lisa.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg");
 }
 .cd-fixed-bg.cd-bg-16 {
-  background-image: url("../images/luke.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg");
 }
 
 .cd-fixed-bg.cd-bg-17 {
-  background-image: url("../images/mathieu.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu.jpg");
 }
 
 .cd-fixed-bg.cd-bg-18 {
-  background-image: url("../images/17.03.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.03.jpg");
 }
 .cd-fixed-bg.cd-bg-19 {
-  background-image: url("../images/17.17.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.17.jpg");
 }
 .cd-fixed-bg.cd-bg-20 {
-  background-image: url("../images/17.30.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.30.jpg");
 }
 .cd-fixed-bg.cd-bg-21 {
-  background-image: url("../images/19.30.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
 }
 .cd-fixed-bg.cd-bg-211 {
-  background-image: url("../images/20.11.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.JPG");
 }
 .cd-scrolling-bg {
   min-height: 100%;

@@ -21,10 +21,10 @@
 	<div id="container" ng-controller="HackathonController">
 		<div ng-hide="hide" id="landing">
 			<div class="logo_bounce" id="logo_section" ng-click="hide=true" ng-init="hide=false">
-				<img src="/images/ga.png" width=150 heigh=150 class="slideDown" alt="GA Logo">
+				<img src="https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ga.png" width=150 heigh=150 class="slideDown" alt="GA Logo">
 			</div>
 			<p>Click me</p>
-			<h2 class="slideRight">WDI 10 - London</h2>
+			<h3 class="slideRight">WDI 10 - London</h2>
 			<h1 class="bigEntrance">Hacky Memory</h1>
 			<h3 class="slideLeft">the one and only wdi 10 card game</h3>
 		</div>
@@ -39,7 +39,8 @@
 			</div>
 		</div>
 
-	
+
+
 
 		<div id="game" ng-show="hide && play" >
 			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
@@ -48,7 +49,7 @@
 
 
 
-				<div class="card" ng-repeat='student in students' ng-animate="'animate'" ng-click='selectCard(student)' ng-class="{selected: isSelected(student) }">
+				<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student), expandOpen: isSelected(student) }">
 
 					<!-- <div ng-show="selectCard"> -->
 					<img src="/images/GA-WDI10-Card.png" alt="" ng-hide="first == student || second == student || isMatched(student)">
@@ -60,7 +61,7 @@
 	</div>
 	<br>
 
-	<a href="documentation.html" title="documentation" class="log-link">Log Book</a></li>
+	<a href="documentation.html" title="documentation" class="log-link">Behind the hacky scenes</a></li>
 	
 	<footer>
 		&copy; General Assembly wdi 10
