@@ -2,10 +2,6 @@
 <html lang="en" ng-app='hackathonApp'>
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Your description goes here">
-	<meta name="keywords" content="one, two, three">
-
-	
 	<title>wdi 10 memory game</title>
 	<script text="text/javascript" src="js/angular.js"></script>
 	<script type="text/javascript" src="js/angular-animate.js"></script>
@@ -15,9 +11,8 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-
-
 </head>
+
 <body>
 	<div id="container" ng-controller="HackathonController">
 		<header>
@@ -29,26 +24,21 @@
 			
 			<div id="game-cards" class="clearfix">
 
-			
 
-				<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student) }">
+
+				<div class="card" ng-repeat='student in students' ng-animate="'animate'" ng-click='selectCard(student)' ng-class="{selected: isSelected(student) }">
 
 					<!-- <div ng-show="selectCard"> -->
 					<img src="/images/GA-WDI10-Card.png" alt="" ng-hide="first == student || second == student || isMatched(student)">
 
 					<img ng-src="{{ student.image || student.phrase }}" alt="" ng-show="first == student || second == student || isMatched(student)">
 				</div>
-
-			</div>
-			<div id="game-control-buttons">
-				<button id="start">Start game</button>
-				<button id="reset">Reset game</button>
 			</div>
 		</div>
+	</div>
+	<footer>
+		&copy; General Assembly wdi 10
+	</footer>
 
-		<footer>
-			&copy; General Assembly wdi 10
-		</footer>
-	</div><!-- #container --> 
 </body>
 </html>
