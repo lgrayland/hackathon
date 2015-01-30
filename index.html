@@ -37,7 +37,7 @@
 			</div>
 		</div>
 
-	
+
 
 		<div id="game" ng-show="hide && play" >
 			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
@@ -46,7 +46,7 @@
 
 
 
-				<div class="card" ng-repeat='student in students' ng-animate="'animate'" ng-click='selectCard(student)' ng-class="{selected: isSelected(student) }">
+				<div class="card" ng-repeat='student in students' ng-click='selectCard(student)' ng-class="{selected: isSelected(student), expandOpen: isSelected(student) }">
 
 					<!-- <div ng-show="selectCard"> -->
 					<img src="/images/GA-WDI10-Card.png" alt="" ng-hide="first == student || second == student || isMatched(student)">
