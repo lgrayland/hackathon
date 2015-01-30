@@ -241,13 +241,15 @@ a:visited .log-link {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.jpg");
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.00jpg");
 }
 .cd-fixed-bg.cd-bg-31 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.jpg");
 }
 .cd-fixed-bg.cd-bg-32 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.jpg");
+
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
@@ -259,27 +261,29 @@ a:visited .log-link {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
 }
 .cd-fixed-bg.cd-bg-6 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.04.jpg");
 }
 .cd-fixed-bg.cd-bg-61 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.jpg");
 }
 .cd-fixed-bg.cd-bg-62 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.jpg");
 }
 
 .cd-fixed-bg.cd-bg-63 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.jpg");
 }
 
 .cd-fixed-bg.cd-bg-64 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.JPG");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.jpg");
 }
 .cd-fixed-bg.cd-bg-7 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg");
 }
 .cd-fixed-bg.cd-bg-8 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
+
 }
 
 .cd-fixed-bg.cd-bg-9 {
@@ -303,7 +307,9 @@ a:visited .log-link {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg");
 }
 .cd-fixed-bg.cd-bg-16 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg");
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.png");
+
 }
 
 .cd-fixed-bg.cd-bg-17 {
@@ -323,7 +329,9 @@ a:visited .log-link {
   background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
 }
 .cd-fixed-bg.cd-bg-211 {
-  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.JPG");
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.jpg");
+
 }
 .cd-scrolling-bg {
   min-height: 100%;
