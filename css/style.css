@@ -137,12 +137,15 @@ footer {
   font-size: 50px;
 }
 #game{
- width: 1300px;
- margin:0 auto;
- padding: 30px;
- border: 1px solid black;
- text-align: center;
- border-radius: 10px;
+   width: 1300px;
+   margin:0 auto;
+   padding: 30px;
+   border: 1px solid black;
+   text-align: center;
+   border-radius: 10px;
+}
+#game h3{
+  margin: 0;
 }
 .card{
  cursor:pointer;
@@ -219,73 +222,101 @@ footer {
 
   }
 
-  a:visited .log-link {
-      color: white;
-      text-decoration: none;
-  }
-  a:hover{
-      color: red;
-      text-decoration: none;
-      background-color: #E8E5E5;
-  }
-  .body-documentation, html {
-      height: 100%;
-  }
-  .cd-fixed-bg {
-      min-height: 100%;
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-position: center center;
-  }
-  .cd-fixed-bg.cd-bg-1 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/13.52.jpg");
+a:visited .log-link {
+  color: white;
+  text-decoration: none;
+}
+ a:hover{
+  color: red;
+  text-decoration: none;
+  background-color: #E8E5E5;
+}
 
-  }
-  .cd-fixed-bg.cd-bg-2 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
-  }
-  .cd-fixed-bg.cd-bg-3 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.jpg");
-  }
-  .cd-fixed-bg.cd-bg-31 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.JPG");
-  }
-  .cd-fixed-bg.cd-bg-32 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.JPG");
-  }
-  .cd-fixed-bg.cd-bg-4 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
-  }
-  .cd-fixed-bg.cd-bg-5 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
-  }
-  .cd-fixed-bg.cd-bg-51 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
-  }
-  .cd-fixed-bg.cd-bg-6 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
-  }
-  .cd-fixed-bg.cd-bg-61 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.JPG");
-  }
-  .cd-fixed-bg.cd-bg-62 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.JPG");
-  }
 
-  .cd-fixed-bg.cd-bg-63 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.JPG");
-  }
+.body-documentation, html {
+  height: 100%;
+}
 
-  .cd-fixed-bg.cd-bg-64 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.JPG");
-  }
-  .cd-fixed-bg.cd-bg-7 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg");
-  }
-  .cd-fixed-bg.cd-bg-8 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
-  }
+#arrow{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#arrow a{
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+#arrow a:hover{
+  text-decoration: none;
+  background: black;
+  color: white;
+
+}
+
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/13.52.jpg");
+
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.10.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.00.jpg");
+}
+.cd-fixed-bg.cd-bg-31 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.17.jpg");
+}
+.cd-fixed-bg.cd-bg-32 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/14.21.jpg");
+
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.20.jpg");
+}
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
+}
+.cd-fixed-bg.cd-bg-51 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.33.jpg");
+}
+.cd-fixed-bg.cd-bg-6 {
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.04.jpg");
+}
+.cd-fixed-bg.cd-bg-61 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.45.jpg");
+}
+.cd-fixed-bg.cd-bg-62 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.54.jpg");
+}
+
+.cd-fixed-bg.cd-bg-63 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.55.jpg");
+}
+
+.cd-fixed-bg.cd-bg-64 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.56.jpg");
+}
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/sadiq1.jpg");
+}
+.cd-fixed-bg.cd-bg-8 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno1.png");
+}
 
   .cd-fixed-bg.cd-bg-9 {
       background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/15.25.jpg");
@@ -293,56 +324,62 @@ footer {
   .cd-fixed-bg.cd-bg-10 {
       background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/16.03.jpg");
   }
+.cd-fixed-bg.cd-bg-12 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel1.jpg");
+}
 
-  .cd-fixed-bg.cd-bg-12 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg");
-  }
+.cd-fixed-bg.cd-bg-13 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie1.jpg");
+}
+.cd-fixed-bg.cd-bg-14 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel1.jpg");
+}
 
-  .cd-fixed-bg.cd-bg-13 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg");
-  }
-  .cd-fixed-bg.cd-bg-14 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel.jpg");
-  }
-  .cd-fixed-bg.cd-bg-15 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg");
-  }
-  .cd-fixed-bg.cd-bg-16 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg");
-  }
+.cd-fixed-bg.cd-bg-16 {
 
-  .cd-fixed-bg.cd-bg-17 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu.jpg");
-  }
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke1.png");
 
-  .cd-fixed-bg.cd-bg-18 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.03.jpg");
-  }
-  .cd-fixed-bg.cd-bg-19 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.17.jpg");
-  }
-  .cd-fixed-bg.cd-bg-20 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.30.jpg");
-  }
-  .cd-fixed-bg.cd-bg-21 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
-  }
-  .cd-fixed-bg.cd-bg-211 {
-      background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.11.JPG");
-  }
-  .cd-scrolling-bg {
-      min-height: 100%;
-  }
-  .body-documentation h1{
-      color: white;
-      text-align: center;
-      padding-top: 150px;
-      font-size: 100px;
-      margin: 0;
-  }
-  .cd-container h1{
-      color: black;
-  }
+}
+
+.cd-fixed-bg.cd-bg-17 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu1.jpg");
+}
+
+.cd-fixed-bg.cd-bg-18 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.03.jpg");
+}
+.cd-fixed-bg.cd-bg-19 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.17.jpg");
+}
+.cd-fixed-bg.cd-bg-20 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/17.30.jpg");
+}
+
+.cd-fixed-bg.cd-bg-201 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/20.29.jpg");
+}
+.cd-fixed-bg.cd-bg-21 {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/19.30.jpg");
+}
+.cd-fixed-bg.cd-bg-211 {
+
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lastpicture.jpg");
+
+}
+.cd-scrolling-bg {
+  min-height: 100%;
+}
+.body-documentation h1{
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 80px;
+  line-height: 120px;
+  margin: 0 20px;
+}
+.cd-container h1{
+  color: black;
+}
 
   .body-documentation p{
       text-align: center;
