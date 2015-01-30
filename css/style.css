@@ -195,13 +195,14 @@ footer {
   /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 
 .log-link{
-  background-color: grey;
+  background-color: black;
   width: 100%;
   display: block;
   text-align: center;
   padding: 40px;
   font-size: 30px;
   text-decoration: none;
+  color: white;
 }
 
  a:hover .log-link{
@@ -214,8 +215,8 @@ a:visited .log-link {
   text-decoration: none;
 
 }
-.log-link a:hover{
-  color: black;
+ a:hover{
+  color: red;
   text-decoration: none;
 
 }
