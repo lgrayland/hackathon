@@ -20,6 +20,7 @@ body {
   line-height: 1.4;
   background-color: black;
   font-family: 'Special Elite', cursive;
+  letter-spacing: 0.3em
 }
 h1{
   font-size: 8em;
@@ -128,7 +129,7 @@ footer {
   font-size: 22px;
 }
 #game{
-   width: 1100px;
+   width: 1300px;
    margin:0 auto;
    padding: 30px;
    border: 1px solid black;
@@ -160,7 +161,6 @@ footer {
   /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
 .log-link{
   background-color: white;
-  margin: 0 auto;
   width: 500px;
   display: block;
   text-align: center;
@@ -168,6 +168,9 @@ footer {
   font-size: 30px;
   text-decoration: none;
   color: black;
+  -ms-transform: rotate(30deg); /* IE 9 */
+      -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+      transform: rotate(30deg);
 }
 
 a:visited .log-link {
