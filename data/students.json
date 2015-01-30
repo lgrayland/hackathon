@@ -1,162 +1,163 @@
 [
+
     {
         "name": "Luke Grayland",
-        "image": "/images/wdi10_people/luke.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/luke.jpg"
     },
     {
         "name": "Luke Grayland",
-        "phrase": "/images/wdi10_people/p_luke.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_luke.jpg"
     },
     {
         "name": "Antonio Goncalves",
-        "image": "/images/wdi10_people/tony.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/tony.jpg"
     },
     {
         "name": "Antonio Goncalves",
-        "phrase": "/images/wdi10_people/p_tony.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_tony.jpg"
     },
     {
         "name": "Ellie Mcgregor",
-        "image": "/images/wdi10_people/ellie.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/ellie.jpg"
     },
     {
         "name": "Ellie Mcgregor",
-        "phrase": "/images/wdi10_people/p_ellie.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_ellie.jpg"
     },
     {
         "name": "Julia Mansson",
-        "image": "/images/wdi10_people/julia.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/julia.jpg"
     },
     {
         "name": "Julia Mansson",
-        "phrase": "/images/wdi10_people/p_julia.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_julia.jpg"
     },
     {
         "name": "Joel Pickup",
-        "image": "/images/wdi10_people/joel.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/joel.jpg"
     },
     {
         "name": "Joel Pickup",
-        "phrase": "/images/wdi10_people/p_joel.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_joel.jpg"
     },
     {
         "name": "Rabea Gleissner",
-        "image": "/images/wdi10_people/rabea.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/rabea.jpg"
     },
     {
         "name": "Rabea Gleissner",
-        "phrase": "/images/wdi10_people/p_rabea.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_rabea.jpg"
     },
     {
         "name": "Nina Regli",
-        "image": "/images/wdi10_people/nina.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/nina.jpg"
     },
     {
         "name": "Nina Regli",
-        "phrase": "/images/wdi10_people/p_nina.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_nina.jpg"
     },
     {
         "name": "Sadiq Okocha",
-        "image": "/images/wdi10_people/sadiq.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/sadiq.jpg"
     },
     {
         "name": "Sadiq Okocha",
-        "phrase": "/images/wdi10_people/p_sadiq.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_sadiq.jpg"
     },
     {
         "name": "Sophie Cottin",
-        "image": "/images/wdi10_people/sophie.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/sophie.jpg"
     },
     {
         "name": "Sophie Cottin",
-        "phrase": "/images/wdi10_people/p_sophie.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_sophie.jpg"
     },
     {
         "name": "Mathieu Gordon",
-        "image": "/images/wdi10_people/mathieu.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/mathieu.jpg"
     },
     {
         "name": "Mathieu Gordon",
-        "phrase": "/images/wdi10_people/p_mathieu.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_mathieu.jpg"
     },
     {
         "name": "Lisa Pollack",
-        "image": "/images/wdi10_people/lisa.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/lisa.jpg"
     },
     {
         "name": "Lisa Pollack",
-        "phrase": "/images/wdi10_people/p_lisa.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_lisa.jpg"
     },
     {
         "name": "Sebastian Riddle",
-        "image": "/images/wdi10_people/sebastian.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/sebastian.jpg"
     },
     {
         "name": "Sebastian Riddle",
-        "phrase": "/images/wdi10_people/p_sebastian.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_sebastian.jpg"
     },
     {
         "name": "Andres Vara",
-        "image": "/images/wdi10_people/andres.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/andres.jpg"
     },
     {
         "name": "Andres Vara",
-        "phrase": "/images/wdi10_people/p_andres.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_andres.jpg"
     },
     {
         "name": "Neil Crosbourne",
-        "image": "/images/wdi10_people/neil.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/neil.jpg"
     },
     {
         "name": "Neil Crosbourne",
-        "phrase": "/images/wdi10_people/p_neil.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_neil.jpg"
     },
     {
         "name": "Daniel Easterman",
-        "image": "/images/wdi10_people/daniel.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/daniel.jpg"
     },
     {
         "name": "Daniel Easterman",
-        "phrase": "/images/wdi10_people/p_daniel.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_daniel.jpg"
     },
     {
         "name": "Bruno Vinel",
-        "image": "/images/wdi10_people/bruno.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/bruno.jpg"
     },
     {
         "name": "Bruno Vinel",
-        "phrase": "/images/wdi10_people/p_bruno.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_bruno.jpg"
     },
     {
         "name": "Michael Pavling",
-        "image": "/images/wdi10_people/michael.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/michael.jpg"
     },
     {
         "name": "Michael Pavling",
-        "phrase": "/images/wdi10_people/p_michael.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_michael.jpg"
     },
     {
         "name": "Alex Chin",
-        "image": "/images/wdi10_people/alex.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/alex.jpg"
     },
     {
         "name": "Alex Chin",
-        "phrase": "/images/wdi10_people/p_alex.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_alex.jpg"
     },
     {
         "name": "Johanna Colberg",
-        "image": "/images/wdi10_people/johanna.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/johanna.jpg"
     },
     {
         "name": "Johanna Colberg",
-        "phrase": "/images/wdi10_people/p_johanna.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_johanna.jpg"
     },
     {
         "name": "Jarkyn Soltobaeva",
-        "image": "/images/wdi10_people/jarkyn.jpg"
+        "image": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/jarkyn.jpg"
     },
     {
         "name": "Jarkyn Soltobaeva",
-        "phrase": "/images/wdi10_people/p_jarkyn.jpg"
+        "phrase": "https://s3-eu-west-1.amazonaws.com/wdi10hackymemory/images/p_jarkyn.jpg"
     }
 ]
