@@ -8,7 +8,7 @@
     $scope.clickCount = 0;
     $scope.matchedStudents = [];
 
-    $http.get("data/studentlite.json").success(function(data){
+    $http.get("data/students.json").success(function(data){
       $scope.students = data.sort(function() {
         return 0.5 - Math.random();
       });
