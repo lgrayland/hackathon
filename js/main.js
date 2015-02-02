@@ -12,7 +12,6 @@
       $scope.students = data.sort(function() {
         return 0.5 - Math.random();
       });
-      console.log(data);
 
       $scope.selectCard = function(student) {
         if($scope.first == student || $scope.second == student || $scope.isMatched(student)) {
@@ -31,7 +30,7 @@
           $timeout(function() {
             $scope.first = null;
             $scope.second = null;
-          }, 1000);
+          }, 1500);
         }
 
       };
